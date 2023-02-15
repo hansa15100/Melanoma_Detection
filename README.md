@@ -46,11 +46,14 @@ Actinic keratosis Basal cell carcinoma Dermatofibroma Melanoma Nevus Pigmented b
 
 
   - Model metrics after using Augmentor Library.
+  
+  <img width="563" alt="Screenshot 2023-02-15 at 11 33 00 PM" src="https://user-images.githubusercontent.com/35450500/219115250-3b9d82fc-2424-4a63-a202-945a30b50737.png">
+
 
 ## Conclusions
 - Intial Model with original dataset seems to be Overfitting with training accuracy 85%(could go upto 95 after removing dropout after dense layer and validation accuracy 58%.
 - Next model with same complexity just with augmented data looks like underfitting case with train accuracy:60% and validation accuracy 53%
-- Last model after treating model with data imbalance and using Augmentor library looks fine.
+- Last model after treating model with data imbalance and using Augmentor library looks fine with training accuracy 83% and validation accuracy 79%.
 
 
 
